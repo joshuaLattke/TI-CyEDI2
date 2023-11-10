@@ -1,6 +1,5 @@
 package MatrizDeAdyacencia.model;
 
-import MatrizDeAdyacencia.model.Color;
 import java.util.*;
 
 public class GraphsMatrixAdyacency<T> {
@@ -62,9 +61,7 @@ public class GraphsMatrixAdyacency<T> {
 
     public boolean hardlyConnect(){
         for (int i = 0; i < vertex.size(); i++) {
-            T tempStart =vertex.get(i);
             for (int j = 0; j < vertex.size(); j++) {
-                T tempDestiny =vertex.get(i);
                 if(i==j){
                 }
                 else{
